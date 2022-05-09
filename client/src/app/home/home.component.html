@@ -13,43 +13,6 @@
     <p>טקסט טקסט טקסט טקסט טקסט </p>
   </div>
 
-  <section class="gallery">
-    <div class="img-container">
-      <img
-        src="https://res.cloudinary.com/dkrcw3jpz/image/upload/v1652099025/Screenshot_3_btw5gs.png"
-        alt="Image"
-        id="preview"
-      />
-      <div class="img-prev text-center">
-        <div class="img-slide active">
-          <img
-            src="https://res.cloudinary.com/dkrcw3jpz/image/upload/v1652099025/Screenshot_3_btw5gs.png"
-            alt="Image1"
-            appDemoDirective
-          />
-        </div>
-        <div class="img-slide">
-          <img
-            src="https://res.cloudinary.com/dkrcw3jpz/image/upload/v1652099025/Screenshot_4_jcfgz1.png"
-            alt="Image2"
-            appDemoDirective
-          />
-        </div>
-        <div class="img-slide">
-          <img
-            src="https://res.cloudinary.com/dkrcw3jpz/image/upload/v1652099023/Screenshot_2_fgyn1v.png"
-            alt="Image3"
-            appDemoDirective
-          />
-        </div>
-        <div class="img-slide">
-          <img
-            src="https://res.cloudinary.com/dkrcw3jpz/image/upload/v1652099158/Screenshot_5_cuplsl.png"
-            alt="Image4"
-            appDemoDirective
-          />
-        </div>
-      </div>
-    </div>
-  </section>
+  <ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery"></ngx-gallery>
+
 </div>

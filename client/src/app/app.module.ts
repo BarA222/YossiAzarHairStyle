@@ -8,6 +8,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DemoDirectiveDirective } from './demo-directive.directive';
 import { FooterComponent } from './footer/footer.component';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgxGalleryModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
